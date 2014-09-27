@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8A1B358A19D7142D00F9CD76 /* cellular@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B358419D7142D00F9CD76 /* cellular@2x.png */; };
+		8A1B358B19D7142D00F9CD76 /* hotpoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B358519D7142D00F9CD76 /* hotpoint@2x.png */; };
+		8A1B358C19D7142D00F9CD76 /* Location@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B358619D7142D00F9CD76 /* Location@2x.png */; };
+		8A1B358D19D7142D00F9CD76 /* notification@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B358719D7142D00F9CD76 /* notification@2x.png */; };
+		8A1B358E19D7142D00F9CD76 /* privacy@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B358819D7142D00F9CD76 /* privacy@2x.png */; };
+		8A1B358F19D7142D00F9CD76 /* vpn@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8A1B358919D7142D00F9CD76 /* vpn@2x.png */; };
 		8A881B6219D4600A00555273 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A881B6119D4600A00555273 /* main.m */; };
 		8A881B6519D4600A00555273 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A881B6419D4600A00555273 /* AppDelegate.m */; };
 		8A881B6819D4600A00555273 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A881B6719D4600A00555273 /* ViewController.m */; };
@@ -60,6 +66,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8A1B358419D7142D00F9CD76 /* cellular@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cellular@2x.png"; sourceTree = "<group>"; };
+		8A1B358519D7142D00F9CD76 /* hotpoint@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hotpoint@2x.png"; sourceTree = "<group>"; };
+		8A1B358619D7142D00F9CD76 /* Location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Location@2x.png"; sourceTree = "<group>"; };
+		8A1B358719D7142D00F9CD76 /* notification@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification@2x.png"; sourceTree = "<group>"; };
+		8A1B358819D7142D00F9CD76 /* privacy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "privacy@2x.png"; sourceTree = "<group>"; };
+		8A1B358919D7142D00F9CD76 /* vpn@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "vpn@2x.png"; sourceTree = "<group>"; };
 		8A881B5C19D4600A00555273 /* quickExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A881B6019D4600A00555273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A881B6119D4600A00555273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -108,6 +120,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8A1B358319D7142D00F9CD76 /* png */ = {
+			isa = PBXGroup;
+			children = (
+				8A1B358419D7142D00F9CD76 /* cellular@2x.png */,
+				8A1B358519D7142D00F9CD76 /* hotpoint@2x.png */,
+				8A1B358619D7142D00F9CD76 /* Location@2x.png */,
+				8A1B358719D7142D00F9CD76 /* notification@2x.png */,
+				8A1B358819D7142D00F9CD76 /* privacy@2x.png */,
+				8A1B358919D7142D00F9CD76 /* vpn@2x.png */,
+			);
+			path = png;
+			sourceTree = "<group>";
+		};
 		8A881B5319D4600A00555273 = {
 			isa = PBXGroup;
 			children = (
@@ -192,6 +217,7 @@
 		8A881B8E19D4645000555273 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8A1B358319D7142D00F9CD76 /* png */,
 				8A881B8F19D4645000555273 /* Info.plist */,
 				8AE3E26719D63A1C004E708E /* settings.plist */,
 			);
@@ -320,7 +346,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A881B9419D4645000555273 /* MainInterface.storyboard in Resources */,
+				8A1B358B19D7142D00F9CD76 /* hotpoint@2x.png in Resources */,
 				8AE3E26819D63A1C004E708E /* settings.plist in Resources */,
+				8A1B358F19D7142D00F9CD76 /* vpn@2x.png in Resources */,
+				8A1B358A19D7142D00F9CD76 /* cellular@2x.png in Resources */,
+				8A1B358C19D7142D00F9CD76 /* Location@2x.png in Resources */,
+				8A1B358E19D7142D00F9CD76 /* privacy@2x.png in Resources */,
+				8A1B358D19D7142D00F9CD76 /* notification@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
