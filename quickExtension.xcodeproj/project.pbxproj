@@ -18,6 +18,7 @@
 		8A881B9219D4645000555273 /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A881B9119D4645000555273 /* TodayViewController.m */; };
 		8A881B9419D4645000555273 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A881B9319D4645000555273 /* MainInterface.storyboard */; };
 		8A881B9719D4645000555273 /* quickSettings.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 8A881B8919D4645000555273 /* quickSettings.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8AE3E26819D63A1C004E708E /* settings.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8AE3E26719D63A1C004E708E /* settings.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +79,7 @@
 		8A881B9019D4645000555273 /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
 		8A881B9119D4645000555273 /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
 		8A881B9319D4645000555273 /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		8AE3E26719D63A1C004E708E /* settings.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = settings.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				8A881B8F19D4645000555273 /* Info.plist */,
+				8AE3E26719D63A1C004E708E /* settings.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -317,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A881B9419D4645000555273 /* MainInterface.storyboard in Resources */,
+				8AE3E26819D63A1C004E708E /* settings.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -562,6 +566,7 @@
 				8A881B8119D4600A00555273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A881B8219D4600A00555273 /* Build configuration list for PBXNativeTarget "quickExtensionTests" */ = {
 			isa = XCConfigurationList;
@@ -570,6 +575,7 @@
 				8A881B8419D4600A00555273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8A881B9A19D4645000555273 /* Build configuration list for PBXNativeTarget "quickSettings" */ = {
 			isa = XCConfigurationList;
@@ -578,6 +584,7 @@
 				8A881B9C19D4645000555273 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
