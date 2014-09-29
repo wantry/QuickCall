@@ -113,9 +113,11 @@
     UIButton *button=[UIButton buttonWithType:UIButtonTypeCustom];
 //    [button setImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
     [button setBackgroundImage:[UIImage imageNamed:imageName] forState:UIControlStateNormal];
+    [button.imageView setContentMode:UIViewContentModeScaleAspectFill];
     [button addTarget:self action:action forControlEvents:UIControlEventTouchUpInside];
     [button setImageEdgeInsets:UIEdgeInsetsMake(0, 0, 0, 0)];
     [button setFrame:CGRectMake(index*55+47, 10, 45, 45)];
+//    [button.layer setBorderWidth:1.0];
     return button;
 
 }
