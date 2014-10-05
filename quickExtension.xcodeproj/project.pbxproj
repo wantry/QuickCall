@@ -70,6 +70,7 @@
 		8A1B358619D7142D00F9CD76 /* Location@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Location@2x.png"; sourceTree = "<group>"; };
 		8A1B358719D7142D00F9CD76 /* notification@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "notification@2x.png"; sourceTree = "<group>"; };
 		8A1B358819D7142D00F9CD76 /* privacy@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "privacy@2x.png"; sourceTree = "<group>"; };
+		8A491A2B19E170DD00FC5076 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		8A881B5C19D4600A00555273 /* quickExtension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = quickExtension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A881B6019D4600A00555273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8A881B6119D4600A00555273 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -195,6 +196,7 @@
 		8A881B8A19D4645000555273 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8A491A2B19E170DD00FC5076 /* libz.dylib */,
 				8A881B8B19D4645000555273 /* NotificationCenter.framework */,
 			);
 			name = Frameworks;
@@ -290,6 +292,7 @@
 				TargetAttributes = {
 					8A881B5B19D4600A00555273 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 67569N79DP;
 					};
 					8A881B7419D4600A00555273 = {
 						CreatedOnToolsVersion = 6.0.1;
@@ -297,6 +300,7 @@
 					};
 					8A881B8819D4645000555273 = {
 						CreatedOnToolsVersion = 6.0.1;
+						DevelopmentTeam = 67569N79DP;
 					};
 				};
 			};
@@ -501,9 +505,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: XUN LIN (67569N79DP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: XUN LIN (67569N79DP)";
 				INFOPLIST_FILE = quickExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMAnalytics_Sdk_3.1.8",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ed8335a8-2b39-47b1-8531-beba030f8b7a";
 			};
 			name = Debug;
 		};
@@ -511,9 +522,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: XUN LIN (67569N79DP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: XUN LIN (67569N79DP)";
 				INFOPLIST_FILE = quickExtension/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/UMAnalytics_Sdk_3.1.8",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ed8335a8-2b39-47b1-8531-beba030f8b7a";
 			};
 			name = Release;
 		};
@@ -521,6 +539,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: XUN LIN (67569N79DP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: XUN LIN (67569N79DP)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -532,6 +552,7 @@
 				INFOPLIST_FILE = quickExtensionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ed8335a8-2b39-47b1-8531-beba030f8b7a";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quickExtension.app/quickExtension";
 			};
 			name = Debug;
@@ -540,6 +561,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: XUN LIN (67569N79DP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: XUN LIN (67569N79DP)";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -547,6 +570,7 @@
 				INFOPLIST_FILE = quickExtensionTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ed8335a8-2b39-47b1-8531-beba030f8b7a";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/quickExtension.app/quickExtension";
 			};
 			name = Release;
@@ -554,6 +578,8 @@
 		8A881B9B19D4645000555273 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: XUN LIN (67569N79DP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: XUN LIN (67569N79DP)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -561,6 +587,7 @@
 				INFOPLIST_FILE = quickSettings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ed8335a8-2b39-47b1-8531-beba030f8b7a";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -568,9 +595,12 @@
 		8A881B9C19D4645000555273 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: XUN LIN (67569N79DP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: XUN LIN (67569N79DP)";
 				INFOPLIST_FILE = quickSettings/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "ed8335a8-2b39-47b1-8531-beba030f8b7a";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
