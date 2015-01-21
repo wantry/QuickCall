@@ -4,10 +4,25 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>CallMe.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>QuickSet.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
 		<key>quickExtension.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>quickKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
 		</dict>
 		<key>quickSettings.xcscheme</key>
 		<dict>
@@ -17,6 +32,16 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8A3F9E851A5175D1006C7182</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A78A4991A69F63E00E3E4A3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8A881B5B19D4600A00555273</key>
 		<dict>
 			<key>primary</key>
@@ -28,6 +53,16 @@
 			<true/>
 		</dict>
 		<key>8A881B8819D4645000555273</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A92CA201A539711000A5C15</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8A92CA2A1A539711000A5C15</key>
 		<dict>
 			<key>primary</key>
 			<true/>

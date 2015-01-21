@@ -7,7 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import "MobClick.h"
+#import "mainViewController.h"
+#import "ViewController.h"
 @interface AppDelegate ()
 
 @end
@@ -17,6 +19,19 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+#ifdef debug
+    [MobClick setLogEnabled:YES];  // 打开友盟sdk调试，注意Release发布时需要注释掉此行,减少io消耗
+#endif
+    //友盟
+    [MobClick startWithAppkey:@"54313622fd98c5486f0bc55c" reportPolicy:(ReportPolicy) REALTIME channelId:nil];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    // Override point for customization after application launch.
+    self.window.backgroundColor = [UIColor whiteColor];
+//    mainViewController *mian=[[mainViewController alloc]init];
+    ViewController *view=[[ViewController alloc]init];
+    self.window.rootViewController=view;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

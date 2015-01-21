@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  quickExtension
+
+  Created by wantry on 15/1/10.
+  Copyright (c) 2015年 wantry. All rights reserved.
+*/
+"image"="选择一个好看的头像";
+"number"="添加号码";
+"tel"="电话";
+"facetime"="FaceTime";
+"facetimeaudio"="FaceTime 音频";

@@ -1,0 +1,12 @@
+/*
+ Localizable.strings
+ quickExtension
+ 
+ Created by wantry on 15/1/10.
+ Copyright (c) 2015年 wantry. All rights reserved.
+ */
+"image"="Choose a good-looking profile photo";
+"number"="Add a phone number";
+"tel"="mobile";
+"facetime"="FaceTime";
+"facetimeaudio"="FaceTime Audio";

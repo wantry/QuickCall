@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0600"
+   LastUpgradeVersion = "0610"
    wasCreatedForAppExtension = "YES"
    version = "1.3">
    <BuildAction
@@ -35,6 +35,20 @@
                ReferencedContainer = "container:quickExtension.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "NO"
+            buildForArchiving = "NO"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8A92CA2A1A539711000A5C15"
+               BuildableName = "quickKitTests.xctest"
+               BlueprintName = "quickKitTests"
+               ReferencedContainer = "container:quickExtension.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
@@ -43,13 +57,23 @@
       shouldUseLaunchSchemeArgsEnv = "YES"
       buildConfiguration = "Debug">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "8A92CA2A1A539711000A5C15"
+               BuildableName = "quickKitTests.xctest"
+               BlueprintName = "quickKitTests"
+               ReferencedContainer = "container:quickExtension.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "8A881B8819D4645000555273"
-            BuildableName = "quickSettings.appex"
-            BlueprintName = "quickSettings"
+            BlueprintIdentifier = "8A881B5B19D4600A00555273"
+            BuildableName = "quickExtension.app"
+            BlueprintName = "quickExtension"
             ReferencedContainer = "container:quickExtension.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
